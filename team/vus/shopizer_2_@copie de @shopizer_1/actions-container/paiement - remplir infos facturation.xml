@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="paiement - remplir infos facturation" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="63ccce2b-b771-437e-9d30-cc1d04c69973" weightsEnabled="false">
+    <weighted-embedded-action uid="e6d2ed4c-6a92-4af4-9418-cbf1c978fe75"/>
+    <weighted-embedded-action uid="33c4641d-0cde-469c-b765-c302cf9705b2"/>
+</basic-logical-action-container>

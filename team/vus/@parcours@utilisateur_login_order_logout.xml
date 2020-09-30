@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="ParcoursUtilisateur_login_order_logout">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="c7ca62a5-732c-46c0-bb98-aecb6ec32f0c"/>
+        <weighted-embedded-action uid="b1ad80e4-710e-496e-9636-be9ca56670c6"/>
+        <weighted-embedded-action uid="e66da59c-2785-40fd-96f7-20317ac706e8"/>
+        <weighted-embedded-action uid="181ccfa1-9676-42d5-8624-65bca9d816ab"/>
+        <weighted-embedded-action uid="3909b666-4888-43f3-bf80-c722c30460bb"/>
+        <weighted-embedded-action uid="108901b9-8aa6-41fe-9270-d7a1e0629aa3"/>
+        <weighted-embedded-action uid="f30bcdf1-e321-443f-a24c-fee752d3057a"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

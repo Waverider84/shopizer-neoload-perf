@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="authentification" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="5625e954-958f-4b9b-b096-7e10e273fa0f" weightsEnabled="false">
+    <weighted-embedded-action uid="4f901b81-d721-43c1-9cc0-014679183e1d"/>
+    <weighted-embedded-action uid="42f22fd9-cb7b-4b17-b1bf-d112aeb25fbd"/>
+    <weighted-embedded-action uid="cc234c61-1509-4a0a-b76f-485dd7bbd832"/>
+    <weighted-embedded-action uid="35d46def-aad2-4751-9c5c-43e59d3d8f98"/>
+</basic-logical-action-container>

@@ -1,0 +1,27 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_01_nolog_copie_2">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="2e292331-2a13-44d8-830b-02ee711e9f62"/>
+        <weighted-embedded-action uid="439715db-2e9f-4433-b0af-983d432b331c"/>
+        <weighted-embedded-action uid="d36dede0-88aa-4d78-ace8-27fec6492a39"/>
+        <weighted-embedded-action uid="f2fd90ab-6dfd-400f-9a69-45af2ca883b1"/>
+        <weighted-embedded-action uid="58e6fa53-e333-4b4b-bce5-e17505517ec2"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    name="/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIUCXKTm9MH1g3DEgkNpD70VxIAGgASHwlMh2nyGRoY7RIJDZFhl"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/shopizer_00/%resources%/recorded-artifacts/ec039256-3cd1-4adc-a696-8bbe93d99469.zip"
+    slaProfileEnabled="false" thinkTime="18"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ec039256-3cd1-4adc-a696-8bbe93d99469">
+    <embedded-action>88281b30-d154-433c-98af-529efe9cb1cb</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f852d735-04ab-4bac-8bf0-0e62c7c28a43.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/a1s2d3/SMALL/16.jpg"
+    path="/static/products/DEFAULT/a1s2d3/SMALL/16.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/shopizer_00/%resources%/recorded-artifacts/ec039256-3cd1-4adc-a696-8bbe93d99469.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="88281b30-d154-433c-98af-529efe9cb1cb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_88281b30-d154-433c-98af-529efe9cb1cb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_46b91e90-daf6-41a2-9faa-63ab9f8daa66.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=08C01DEA8111BD72A422D2F1966715E4; __utma=81480926.235488676.1601307212.1601375823.1601385126.5; __utmt=1; user=DEFAULT_robert.lamontagne@yopmail.com; cart=DEFAULT_ffb2880edbfc4f4896646571567f34b0; __utmb=81480926.7.10.1601385126"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/cart/shoppingCart.html"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 13:28:05 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

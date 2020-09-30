@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="panier - effectuer le paiement" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="12311ace-2401-4e0c-86dd-95ada9a44839" weightsEnabled="false">
+    <weighted-embedded-action uid="f64a19b5-aea1-4ff5-8f17-9b995fcbe941"/>
+</basic-logical-action-container>

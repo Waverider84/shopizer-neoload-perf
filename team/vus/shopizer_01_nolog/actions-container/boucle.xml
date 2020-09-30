@@ -1,0 +1,3 @@
+<loop-action loop="${liste_productid_matchNr}" name="boucle" uid="0da3f72c-5752-43be-9d87-fc4f11550378">
+    <embedded-action>d9ed2378-45b3-40a8-80e0-fb33841db894</embedded-action>
+</loop-action>

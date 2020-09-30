@@ -1,0 +1,27 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_01_nolog_parcours valide avec productid variabilié ds additem">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="4d65a80e-57ef-43fb-8ae8-30b4181a5252"/>
+        <weighted-embedded-action uid="60c72c41-b582-4d87-b7c8-bc06ef3ac2b6"/>
+        <weighted-embedded-action uid="c0ddbd98-0022-4c97-9abc-80ac660ac820"/>
+        <weighted-embedded-action uid="78ea26ae-3dd8-4d45-8645-30e5eddf163e"/>
+        <weighted-embedded-action uid="cf13c965-a143-4e55-b0a4-b09fbd09303e"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

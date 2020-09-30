@@ -1,0 +1,4 @@
+<http-server hostname="discordapp.com" port="443" ssl="true"
+    uid="discordapp.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

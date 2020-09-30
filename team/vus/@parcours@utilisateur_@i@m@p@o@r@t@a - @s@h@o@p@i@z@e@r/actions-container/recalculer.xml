@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="recalculer" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="5e186077-fec1-43ae-94ec-3607621d16c5" weightsEnabled="false">
+    <weighted-embedded-action uid="5ff8e9d5-38a4-4e1e-883b-55972531ece5"/>
+    <weighted-embedded-action uid="d03ec4e9-5f47-4c8a-91fb-04221d7f1c08"/>
+</basic-logical-action-container>

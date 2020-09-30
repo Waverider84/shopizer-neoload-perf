@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ouverture panier" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="82689a8d-fd9d-4789-8715-c2438cabad80" weightsEnabled="false">
+    <weighted-embedded-action uid="a4156383-7921-4325-aba7-a41a25068b52"/>
+</basic-logical-action-container>

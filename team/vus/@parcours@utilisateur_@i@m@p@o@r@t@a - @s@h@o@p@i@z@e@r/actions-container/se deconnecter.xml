@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="se deconnecter" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="e786820c-2cc3-47aa-b1dd-56f42ac58760" weightsEnabled="false">
+    <weighted-embedded-action uid="fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff"/>
+</basic-logical-action-container>

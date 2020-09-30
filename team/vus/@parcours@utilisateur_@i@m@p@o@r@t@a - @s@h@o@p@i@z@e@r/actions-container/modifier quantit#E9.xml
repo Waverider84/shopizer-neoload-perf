@@ -1,0 +1,5 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="modifier quantité" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="85bb09a8-09fb-4d77-965a-21352f057b9c" weightsEnabled="false"/>

@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="users35ad95b8-347d-4c40-bbf6-a175a8688f7c.csv" name="account" offset="1" order="1" policy="5" range="1" uid="2d187d5c-86bd-4f03-9c71-60d2c9495f26" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="pass1" number="1"/>
+<column name="user1" number="0"/>
+</variable-file>

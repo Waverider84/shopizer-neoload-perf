@@ -1,0 +1,498 @@
+<http-page executeResourcesDynamically="false"
+    name="/shop/customer/logout" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    slaProfileEnabled="false" thinkTime="6666"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff">
+    <embedded-action>95a576c7-58c0-4946-bbad-27b86b6caa03</embedded-action>
+    <embedded-action>2979db24-cc43-4ebb-a283-f515fc413bd8</embedded-action>
+    <embedded-action>b4f96892-b1ac-4559-8448-afec90498a85</embedded-action>
+    <embedded-action>699a9580-0933-49ee-9963-95dfa2ef72cd</embedded-action>
+    <embedded-action>9c7c9619-c3ac-4848-8463-2cd2f4520619</embedded-action>
+    <embedded-action>de3905b2-18aa-4e01-9d24-68bd0cca823e</embedded-action>
+    <embedded-action>ea0b8dae-c48b-4fe3-9c28-5df703fd2f46</embedded-action>
+    <embedded-action>70888189-b9e0-4639-af79-f2957b5cc321</embedded-action>
+    <embedded-action>a1785bd0-1490-4cb7-be9f-2735432ec18a</embedded-action>
+    <embedded-action>c8aa9e2f-def6-46b6-a86b-aa52809d213d</embedded-action>
+    <embedded-action>57ce2dd9-6a18-442f-8a46-2129c6f5289f</embedded-action>
+    <embedded-action>e173d1a5-1def-4c3c-9be8-4041bf72518c</embedded-action>
+    <embedded-action>57a4d7e1-085e-4a5a-abe8-7201855076f3</embedded-action>
+    <embedded-action>f8a30268-5c4f-44b3-8baf-023e194a13a2</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6fd81060-a606-41f5-92c1-9417e6b29429.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop/customer/logout"
+    path="/shop/customer/logout" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="302" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="95a576c7-58c0-4946-bbad-27b86b6caa03" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_26803102-581f-4958-8ddc-44578d78fc42</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_26803102-581f-4958-8ddc-44578d78fc42.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/confirmation.html"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 &#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Location: http://85.171.20.78:66/shop/&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop/" path="/shop/" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200"
+    refererUid="95a576c7-58c0-4946-bbad-27b86b6caa03"
+    responseSize="32781" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="2979db24-cc43-4ebb-a283-f515fc413bd8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd767fb7-654c-4859-a05a-b30aa5b5023f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd767fb7-654c-4859-a05a-b30aa5b5023f.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/confirmation.html"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache&#xd;
+Pragma: no-cache&#xd;
+Expires: Wed, 31 Dec 1969 23:59:59 GMT&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Content-Language: fr-CA&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 08:01:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop/reference/zoneName"
+    path="/shop/reference/zoneName" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="9" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="b4f96892-b1ac-4559-8448-afec90498a85" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c5bd12c9-32f1-4b65-829b-89222ae39938</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c5bd12c9-32f1-4b65-829b-89222ae39938.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="zoneCode"
+        recordRawValue="QC" separator="=" value="QC" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Language: fr-CA&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 08:01:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop/reference/countryName"
+    path="/shop/reference/countryName" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="8" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="699a9580-0933-49ee-9963-95dfa2ef72cd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2535c41a-e213-4263-b8da-41fa5f1e7723</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2535c41a-e213-4263-b8da-41fa5f1e7723.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="countryCode"
+        recordRawValue="CA" separator="=" value="CA" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Language: fr-CA&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 08:01:07 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/services/public/DEFAULT/products/group/FEATURED_ITEM"
+    path="/services/public/DEFAULT/products/group/FEATURED_ITEM"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="18530"
+    serverUid="85.171.20.78" slaProfileEnabled="false"
+    uid="9c7c9619-c3ac-4848-8463-2cd2f4520619" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_20b23660-4180-4993-b0cf-8aa0c3171ba5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_20b23660-4180-4993-b0cf-8aa0c3171ba5.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop/customer/accountSummary.json"
+    path="/shop/customer/accountSummary.json" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="401" responseSize="146"
+    serverUid="85.171.20.78" slaProfileEnabled="false"
+    uid="de3905b2-18aa-4e01-9d24-68bd0cca823e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_65887446-88f5-4c1c-83d1-ebaeab999602</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_65887446-88f5-4c1c-83d1-ebaeab999602.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="userName"
+        recordRawValue="jean.valjean@yopmail.com" separator="="
+        value="${user_email}" valueMode="USE_VALUE">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param"
+            refererUid="260a0bbd-c5c4-4256-9942-e6efe73c4dfa"
+            regExp="&quot;emailAddress&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;emailAddress&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="6aabe34b-f257-4f78-8bd9-007ec88f5f14" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; user=DEFAULT_${nl_extracted_param_2}; __utmt=1; __utmb=81480926.46.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 401 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Language: fr-CA&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/a1s2d3/SMALL/16.jpg"
+    path="/static/products/DEFAULT/a1s2d3/SMALL/16.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="ea0b8dae-c48b-4fe3-9c28-5df703fd2f46" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ea0b8dae-c48b-4fe3-9c28-5df703fd2f46</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_83fe675b-b54e-4440-94d5-c441c8ca54fe.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/products/DEFAULT/SKU111/SMALL/night-table.jpg"
+    path="/static/products/DEFAULT/SKU111/SMALL/night-table.jpg"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="70888189-b9e0-4639-af79-f2957b5cc321" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_70888189-b9e0-4639-af79-f2957b5cc321</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_62aee44c-e33c-4eaa-b247-fca106f2cd77.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/UC100/SMALL/bag.jpg"
+    path="/static/products/DEFAULT/UC100/SMALL/bag.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="a1785bd0-1490-4cb7-be9f-2735432ec18a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a1785bd0-1490-4cb7-be9f-2735432ec18a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2691d851-9d5c-4177-a48c-cc4dcbbf8057.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/products/DEFAULT/0o9i8u7y/SMALL/IMG_9505.jpg"
+    path="/static/products/DEFAULT/0o9i8u7y/SMALL/IMG_9505.jpg"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="c8aa9e2f-def6-46b6-a86b-aa52809d213d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c8aa9e2f-def6-46b6-a86b-aa52809d213d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a2c84a19-89f0-4619-b99d-083d5194eb23.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/aq1sw2de3/SMALL/115.jpg"
+    path="/static/products/DEFAULT/aq1sw2de3/SMALL/115.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="57ce2dd9-6a18-442f-8a46-2129c6f5289f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_57ce2dd9-6a18-442f-8a46-2129c6f5289f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3884191a-4c4c-44cd-a768-0e4a86f25614.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/q1w2e3r4/SMALL/47.jpg"
+    path="/static/products/DEFAULT/q1w2e3r4/SMALL/47.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="e173d1a5-1def-4c3c-9be8-4041bf72518c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e173d1a5-1def-4c3c-9be8-4041bf72518c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b10e1c74-27d8-45e2-a0a2-231c2baf6ebd.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/products/DEFAULT/z1x2c3v4/SMALL/76.jpg"
+    path="/static/products/DEFAULT/z1x2c3v4/SMALL/76.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="57a4d7e1-085e-4a5a-abe8-7201855076f3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_57a4d7e1-085e-4a5a-abe8-7201855076f3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5b4cb67f-18ec-4930-9a3d-c2643f7a17a5.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/products/DEFAULT/TZ11001/SMALL/Messina_coffeetable.jpg"
+    path="/static/products/DEFAULT/TZ11001/SMALL/Messina_coffeetable.jpg"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_@i@m@p@o@r@t@a - @s@h@o@p@i@z@e@r/%resources%/recorded-artifacts/fcf92d5c-d6f0-4d54-bdb3-d648e85fbbff.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="f8a30268-5c4f-44b3-8baf-023e194a13a2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f8a30268-5c4f-44b3-8baf-023e194a13a2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_48583e5a-8513-45d3-aef1-758a368c5c51.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; JSESSIONID=2CBBE8D57E303B01C6CD15387B178CEA; __utma=81480926.235488676.1601307212.1601307212.1601363072.2; __utmc=81480926; __utmt=1; __utmb=81480926.47.10.1601363072"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 08:01:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
