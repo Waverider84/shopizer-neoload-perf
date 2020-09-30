@@ -1,0 +1,110 @@
+<http-page executeResourcesDynamically="false"
+    name="/shop/order/commitOrder.html_4"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_login_order_logout/%resources%/recorded-artifacts/5c50aac6-49fb-4ad0-a6ee-dd24d07aab77.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5c50aac6-49fb-4ad0-a6ee-dd24d07aab77">
+    <embedded-action>44843630-b7b2-408f-b943-a38b4ba5e2cd</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8c27df84-d981-4d43-8fa4-76274302316d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/shop/order/commitOrder.html"
+    path="/shop/order/commitOrder.html" postCharset="iso-8859-1"
+    postType="3"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_login_order_logout/%resources%/recorded-artifacts/5c50aac6-49fb-4ad0-a6ee-dd24d07aab77.zip"
+    recordedResponseCode="200" responseSize="62640"
+    serverUid="85.171.20.78" slaProfileEnabled="false"
+    uid="44843630-b7b2-408f-b943-a38b4ba5e2cd" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[LS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJ1c2VEaXN0YW5jZVdpbmRvdyINCg0KZmFsc2UNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5maXJzdE5hbWUiDQoNCmplYW4NCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5sYXN0TmFtZSINCg0KdmFsamVhbg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJjdXN0b21lci5iaWxsaW5nLmNvbXBhbnkiDQoNCg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJjdXN0b21lci5iaWxsaW5nLmFkZHJlc3MiDQoNCjMgcnVlIGR1IHBpYyBkZSBjaGFyZ2UNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5jaXR5Ig0KDQpNb250cmVhbA0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJjdXN0b21lci5iaWxsaW5nLmNvdW50cnkiDQoNCkNBDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImN1c3RvbWVyLmJpbGxpbmcuem9uZSINCg0KUUMNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5zdGF0ZVByb3ZpbmNlIg0KDQoNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5wb3N0YWxDb2RlIg0KDQo5ODEgMDANCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZW1haWxBZGRyZXNzIg0KDQpqZWFuLnZhbGplYW5AeW9wbWFpbC5jb20NCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuYmlsbGluZy5waG9uZSINCg0KMDEyMzQ1Ng0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJfc2hpcFRvRGVsaXZlcnlBZGRyZXNzIg0KDQpvbg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJjdXN0b21lci5kZWxpdmVyeS5maXJzdE5hbWUiDQoNCmplYW4NCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkubGFzdE5hbWUiDQoNCnZhbGplYW4NCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkuY29tcGFueSINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImN1c3RvbWVyLmRlbGl2ZXJ5LmFkZHJlc3MiDQoNCjMgcnVlIGR1IHBpYyBkZSBjaGFyZ2UNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkuY2l0eSINCg0KTW9udHJlYWwNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkuY291bnRyeSINCg0KQ0ENCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkuem9uZSINCg0KUUMNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY3VzdG9tZXIuZGVsaXZlcnkuc3RhdGVQcm92aW5jZSINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImN1c3RvbWVyLmRlbGl2ZXJ5LnBvc3RhbENvZGUiDQoNCjk4MSAwMA0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJjb21tZW50cyINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InNoaXBwaW5nTW9kdWxlIg0KDQpzdG9yZVBpY2tVcA0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJzZWxlY3RlZFNoaXBwaW5nT3B0aW9uLm9wdGlvbklkIg0KDQpzdG9yZVBpY2tVcF9RQw0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJwYXltZW50TWV0aG9kVHlwZSINCg0KTU9ORVlPUkRFUg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5SzN0ZFhObDRMS1I4b2gyRQ0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJwYXltZW50TW9kdWxlIg0KDQptb25leW9yZGVyDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImN1c3RvbWVyQWdyZWVkIg0KDQp0cnVlDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlLM3RkWE5sNExLUjhvaDJFDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Il9jdXN0b21lckFncmVlZCINCg0Kb24NCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeUszdGRYTmw0TEtSOG9oMkUtLQ0K]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_e489a855-b788-4381-a5ea-bba8de67c549.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e489a855-b788-4381-a5ea-bba8de67c549.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Content-Type" value="multipart/form-data; boundary=----WebKitFormBoundaryK3tdXNl4LKR8oh2E"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=30ED13369C6DCE5471880A7A5DC6058C; __utma=81480926.235488676.1601307212.1601370670.1601375823.4; __utmt=1; user=DEFAULT_jean.valjean@yopmail.com; cart=DEFAULT_3d802026f78a4116b254a5f909fbce7c; __utmb=81480926.16.10.1601375823"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Origin" value="http://85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/commitOrder.html"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: http://85.171.20.78:66&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache&#xd;
+Pragma: no-cache&#xd;
+Expires: Wed, 31 Dec 1969 23:59:59 GMT&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Content-Language: en-US&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 10:44:12 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-string name="useDistanceWindow" recordRawValue=""
+            value="false" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.firstName"
+            recordRawValue="" value="jean" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.lastName"
+            recordRawValue="" value="valjean" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.company"
+            recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.address"
+            recordRawValue="" value="3 rue du pic de charge" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.city" recordRawValue=""
+            value="Montreal" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.country"
+            recordRawValue="" value="CA" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.zone" recordRawValue=""
+            value="QC" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.stateProvince"
+            recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.postalCode"
+            recordRawValue="" value="981 00" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.emailAddress" recordRawValue=""
+            value="jean.valjean@yopmail.com" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.billing.phone"
+            recordRawValue="" value="0123456" valueMode="USE_VALUE"/>
+        <multipart-string name="_shipToDeliveryAddress"
+            recordRawValue="" value="on" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.firstName"
+            recordRawValue="" value="jean" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.lastName"
+            recordRawValue="" value="valjean" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.company"
+            recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.address"
+            recordRawValue="" value="3 rue du pic de charge" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.city"
+            recordRawValue="" value="Montreal" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.country"
+            recordRawValue="" value="CA" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.zone"
+            recordRawValue="" value="QC" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.stateProvince"
+            recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="customer.delivery.postalCode"
+            recordRawValue="" value="981 00" valueMode="USE_VALUE"/>
+        <multipart-string name="comments" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="shippingModule" recordRawValue=""
+            value="storePickUp" valueMode="USE_VALUE"/>
+        <multipart-string name="selectedShippingOption.optionId"
+            recordRawValue="" value="storePickUp_QC" valueMode="USE_VALUE"/>
+        <multipart-string name="paymentMethodType" recordRawValue=""
+            value="MONEYORDER" valueMode="USE_VALUE"/>
+        <multipart-string name="paymentModule" recordRawValue=""
+            value="moneyorder" valueMode="USE_VALUE"/>
+        <multipart-string name="customerAgreed" recordRawValue=""
+            value="true" valueMode="USE_VALUE"/>
+        <multipart-string name="_customerAgreed" recordRawValue=""
+            value="on" valueMode="USE_VALUE"/>
+    </multiparts>
+</http-action>

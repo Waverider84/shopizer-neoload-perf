@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="accès au site shopizer importa" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="225b8e42-e080-442a-85e9-19f3641da705" weightsEnabled="false">
+    <weighted-embedded-action uid="df43e715-5f9c-438b-8b09-65f722cccb4b"/>
+</basic-logical-action-container>

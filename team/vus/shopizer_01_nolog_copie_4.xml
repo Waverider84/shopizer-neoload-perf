@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_01_nolog_copie_4">
+    <description>ce parcours boucle sur l'ajout d'un produit au panier // variabilisation du productId (8 produits)
+nombre itération de boucle: ${liste_productids_matchNr}</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="962aeaaf-ed24-4786-b9e1-16c823e5d082"/>
+        <weighted-embedded-action uid="5889f70d-68db-4b2c-9626-97e6f0deb3a3"/>
+        <weighted-embedded-action uid="43fa42ef-81e3-469f-8835-4afddb30b072"/>
+        <weighted-embedded-action uid="befd15ec-95b5-4274-9841-849e7fa8817f"/>
+        <weighted-embedded-action uid="cf74fdc3-3911-4ef7-9c58-e3e18212e8b9"/>
+        <weighted-embedded-action uid="a1b333bf-19a7-421f-8840-1221af767b49"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

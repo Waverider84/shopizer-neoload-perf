@@ -1,0 +1,47 @@
+<population uid="Shopizer_shoppers">
+    <split cache="1" factor="50.0" virtualUserUid="shopizer_01_nolog_copie_3">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true"
+            icon-name="firefox" name="Firefox 70.0" userAgent="Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/70.0"/>
+        <wan-emulation-profile averageDownloadBandwidth="12Mbps"
+            averageDownloadLatency="30ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="5Mbps" averageUploadLatency="30ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="16Mbps"
+            downloadLatency="20ms" downloadPacketLoss="0%"
+            isRadio="true" name="4G LTE" poorDownloadBandwidth="5Mbps"
+            poorDownloadLatency="40ms" poorDownloadPacketLoss="1%"
+            poorUploadBandwidth="2Mbps" poorUploadLatency="40ms"
+            poorUploadPacketLoss="0%" signalStrength="GOOD"
+            uploadBandwidth="8Mbps" uploadLatency="20ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="25.0" virtualUserUid="shopizer_01_nolog_copie_4">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true"
+            icon-name="chrome" name="Chrome 78.0" userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"/>
+        <wan-emulation-profile averageDownloadBandwidth="14Mbps"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="5Mbps" averageUploadLatency="0ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="22Mbps"
+            downloadLatency="0ms" downloadPacketLoss="0%" isRadio="true"
+            name="Wifi 802.11g" poorDownloadBandwidth="7Mbps"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="3Mbps" poorUploadLatency="0ms"
+            poorUploadPacketLoss="1%" signalStrength="GOOD"
+            uploadBandwidth="8Mbps" uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="25.0" virtualUserUid="shopizer_01_nolog_copie_3">
+        <browser-profile acceptEncoding="GZIP,DEFLATE" connections="6"
+            cookies="true" http2="false" icon-name="droid"
+            name="Samsung Galaxy S7" userAgent="Mozilla/5.0 (Linux; Android 6.0; SAMSUNG SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36"/>
+        <wan-emulation-profile averageDownloadBandwidth="12Mbps"
+            averageDownloadLatency="30ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="5Mbps" averageUploadLatency="30ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="16Mbps"
+            downloadLatency="20ms" downloadPacketLoss="0%"
+            isRadio="true" name="4G LTE" poorDownloadBandwidth="5Mbps"
+            poorDownloadLatency="40ms" poorDownloadPacketLoss="1%"
+            poorUploadBandwidth="2Mbps" poorUploadLatency="40ms"
+            poorUploadPacketLoss="0%" signalStrength="GOOD"
+            uploadBandwidth="8Mbps" uploadLatency="20ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="infos sur la fac" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="30c8ba07-aa23-4042-88ec-3657088be685" weightsEnabled="false">
+    <weighted-embedded-action uid="78f7ae6f-0fa0-4292-a9d8-789a42f2405f"/>
+    <weighted-embedded-action uid="3146a66d-4f3c-48c3-a1b7-79bcdd4143f4"/>
+</basic-logical-action-container>

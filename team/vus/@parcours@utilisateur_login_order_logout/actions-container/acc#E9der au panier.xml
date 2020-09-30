@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="accéder au panier" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="181ccfa1-9676-42d5-8624-65bca9d816ab" weightsEnabled="false">
+    <weighted-embedded-action uid="8600e10f-1497-4113-9814-0738428005da"/>
+    <weighted-embedded-action uid="cfe1f06d-d9b1-4899-8905-bcb31300f963"/>
+    <weighted-embedded-action uid="3f8a2e2b-3355-4c01-b278-8b087b0f0ecd"/>
+    <weighted-embedded-action uid="d1b31547-78e1-4c44-a95d-63dffc3c507b"/>
+    <weighted-embedded-action uid="37e9d8ef-1993-4fcb-9631-91ff6ea9e1f4"/>
+</basic-logical-action-container>

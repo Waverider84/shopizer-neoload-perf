@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="click sur paiement pour voir panier" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="68694358-b0b2-4361-9645-a900f9200108" weightsEnabled="false">
+    <weighted-embedded-action uid="a15b8cc3-24b1-4661-b2e6-38c2061df90b"/>
+    <weighted-embedded-action uid="ec039256-3cd1-4adc-a696-8bbe93d99469"/>
+</basic-logical-action-container>

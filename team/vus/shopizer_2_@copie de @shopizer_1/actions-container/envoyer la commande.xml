@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="envoyer la commande" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="e05ed9f4-c899-45ee-a65b-f5a688c8c88c" weightsEnabled="false">
+    <weighted-embedded-action uid="eb9b7a6c-99fc-4e79-820c-e009144d3ef8"/>
+</basic-logical-action-container>

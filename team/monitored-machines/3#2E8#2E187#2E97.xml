@@ -1,0 +1,8 @@
+<monitored-host host-name="3.8.187.97" mehost-name="localhost" uid="3.8.187.97">
+    <embedded-action>8fb8eed3-5074-4852-b535-5e532d359e09</embedded-action>
+    <embedded-action>735f67eb-7a44-4d7f-8c10-5e381f002a64</embedded-action>
+    <embedded-action>48073a08-efb0-4572-ae67-2a84d89756b1</embedded-action>
+    <embedded-action>12e8e8c8-7461-491e-86f9-e9085fffd8b8</embedded-action>
+    <embedded-action>24dc1c62-c4b0-4d0e-947f-67c28169aab2</embedded-action>
+    <embedded-action>8f4a21d1-07e4-475b-9a58-24e6082f12e6</embedded-action>
+</monitored-host>

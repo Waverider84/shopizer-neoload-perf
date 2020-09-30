@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_1">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="9d46f82b-bc7b-4926-a107-833600f4a027"/>
+        <weighted-embedded-action uid="5625e954-958f-4b9b-b096-7e10e273fa0f"/>
+        <weighted-embedded-action uid="524afed1-8a4a-4e5d-8522-8f2918900e76"/>
+        <weighted-embedded-action uid="a9b92b32-0233-435c-8fe8-5d44c591597f"/>
+        <weighted-embedded-action uid="4985fbda-728b-475c-afc8-f4a754274782"/>
+        <weighted-embedded-action uid="78378a2c-2771-4892-b278-b6ff87720a10"/>
+        <weighted-embedded-action uid="ac2ff62e-968b-4657-9f9c-211d7b2a69f7"/>
+        <weighted-embedded-action uid="5e69ec37-36e2-402b-8041-d7efac8343a7"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

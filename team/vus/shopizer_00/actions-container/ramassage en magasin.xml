@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ramassage en magasin" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="215ef7b3-afa9-4221-ab9c-d0129e16ea9e" weightsEnabled="false">
+    <weighted-embedded-action uid="67219f5e-efd4-4d8f-9d6c-d73a54bc4fc0"/>
+</basic-logical-action-container>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ajouter un produit au panier" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="59bad954-dda1-4627-b332-1b34af1ea970" weightsEnabled="false">
+    <weighted-embedded-action uid="38ccaf60-7ddc-4015-8d6f-4fa8ff354561"/>
+</basic-logical-action-container>

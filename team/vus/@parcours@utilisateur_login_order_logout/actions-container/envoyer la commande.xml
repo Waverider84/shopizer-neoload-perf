@@ -1,0 +1,21 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="envoyer la commande" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="108901b9-8aa6-41fe-9270-d7a1e0629aa3" weightsEnabled="false">
+    <weighted-embedded-action uid="f666c76e-617c-4b45-987b-8df1b1e1982e"/>
+    <weighted-embedded-action uid="32e4c5ba-3d21-4d46-84db-15767085efb8"/>
+    <weighted-embedded-action uid="bfa5526b-3b7c-427e-987e-66def0dc8e21"/>
+    <weighted-embedded-action uid="2ec864a4-235e-4c19-ad4c-964de8017ee9"/>
+    <weighted-embedded-action uid="b945923c-b623-4a06-a6bd-d86a81da813e"/>
+    <weighted-embedded-action uid="5e571938-e2ae-4beb-bc8c-b796e6ee016a"/>
+    <weighted-embedded-action uid="1ca5ea8a-0402-4957-8304-48a094cac730"/>
+    <weighted-embedded-action uid="ae58f4b1-f114-4976-8619-eedf1cf10206"/>
+    <weighted-embedded-action uid="38465fd8-39a3-459b-8d2f-fb9fea57cb28"/>
+    <weighted-embedded-action uid="2c9f0bc0-ab37-4b8b-b814-b83a59ac6689"/>
+    <weighted-embedded-action uid="9824e112-3643-4bb0-bf39-5021cd14450e"/>
+    <weighted-embedded-action uid="5c50aac6-49fb-4ad0-a6ee-dd24d07aab77"/>
+    <weighted-embedded-action uid="1f40c5c2-6380-4527-ac19-74f5c5ef32cc"/>
+    <weighted-embedded-action uid="1edfbf65-9991-4767-ae29-199cf0c567de"/>
+    <weighted-embedded-action uid="a3e603e8-fd21-40e0-b35a-531a3d596050"/>
+</basic-logical-action-container>

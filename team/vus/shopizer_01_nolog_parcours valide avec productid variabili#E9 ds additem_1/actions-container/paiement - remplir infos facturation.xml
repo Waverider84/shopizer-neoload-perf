@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="paiement - remplir infos facturation" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="c82657d1-bf14-4911-b96c-bc93dc0117fe" weightsEnabled="false">
+    <weighted-embedded-action uid="9bafd4a1-816c-4507-9dec-3b2a9843f9a3"/>
+    <weighted-embedded-action uid="5c709971-f9a8-44fe-b4c9-84c0a188e809"/>
+    <weighted-embedded-action uid="345cf7dc-1ca7-4249-a941-073fbed5cc61"/>
+    <weighted-embedded-action uid="aa578a1b-65f0-4bee-b82b-9de3a48871fc"/>
+    <weighted-embedded-action uid="5aca106b-d4a3-4bc6-9330-038e50c745cc"/>
+    <weighted-embedded-action uid="afc41dbc-6962-4803-b0dc-3917929c335c"/>
+    <weighted-embedded-action uid="8d808273-781e-4429-81cd-fae30be1fd73"/>
+    <weighted-embedded-action uid="4ac6f35f-c07c-450c-a9e8-62b99123f15b"/>
+    <weighted-embedded-action uid="ed5604ee-9195-474c-8f92-f5734f772e10"/>
+</basic-logical-action-container>

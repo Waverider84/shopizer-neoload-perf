@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false"
+    name="/shop/category/test-code-francais123.html/ref=c:161"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur/%resources%/recorded-artifacts/5c1ad6c5-d529-43a7-b23a-1cc93694f8f0.zip"
+    slaProfileEnabled="false" thinkTime="9727"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5c1ad6c5-d529-43a7-b23a-1cc93694f8f0">
+    <embedded-action>dc32073f-de94-4696-a9ad-325423c713af</embedded-action>
+    <embedded-action>da4f1e6c-1bed-4f21-9dac-7c832dfc0fe9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_5c1ad6c5-d529-43a7-b23a-1cc93694f8f0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shop/category/test-code-francais123.html/ref=c:161"
+    path="/shop/category/test-code-francais123.html/ref=c:161"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur/%resources%/recorded-artifacts/5c1ad6c5-d529-43a7-b23a-1cc93694f8f0.zip"
+    recordedResponseCode="302" responseSize="0" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="dc32073f-de94-4696-a9ad-325423c713af" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_dc32073f-de94-4696-a9ad-325423c713af</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dc32073f-de94-4696-a9ad-325423c713af.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=93C9E54D7C46A749AAEC205C0E1EC487; __utma=81480926.235488676.1601307212.1601385126.1601390717.6; __utmt=1; user=DEFAULT_robert.lamontagne@yopmail.com; __utmb=81480926.10.10.1601390717"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/confirmation.html"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Location: http://85.171.20.78:66/shop&#xd;
+Content-Language: fr-CA&#xd;
+Content-Length: 0&#xd;
+Date: Tue, 29 Sep 2020 14:47:45 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/shop" path="/shop" postType="2"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur/%resources%/recorded-artifacts/5c1ad6c5-d529-43a7-b23a-1cc93694f8f0.zip"
+    recordedResponseCode="200"
+    refererUid="dc32073f-de94-4696-a9ad-325423c713af"
+    responseSize="32815" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="da4f1e6c-1bed-4f21-9dac-7c832dfc0fe9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_da4f1e6c-1bed-4f21-9dac-7c832dfc0fe9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_da4f1e6c-1bed-4f21-9dac-7c832dfc0fe9.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=93C9E54D7C46A749AAEC205C0E1EC487; __utma=81480926.235488676.1601307212.1601385126.1601390717.6; __utmt=1; user=DEFAULT_robert.lamontagne@yopmail.com; __utmb=81480926.10.10.1601390717"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/confirmation.html"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache&#xd;
+Pragma: no-cache&#xd;
+Expires: Wed, 31 Dec 1969 23:59:59 GMT&#xd;
+Content-Type: text/html;charset=UTF-8&#xd;
+Content-Language: fr-CA&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 14:47:45 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

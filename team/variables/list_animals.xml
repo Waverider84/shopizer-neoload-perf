@@ -1,0 +1,5 @@
+<variable-list name="list_animals" offset="1" order="2" policy="1" range="1" uid="7d7737c9-b22d-4df0-b4af-da720d0c1206" whenOutOfValues="CYCLE_VALUES">
+<column name="Animal" number="0"/>
+<column name="product Id" number="1"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAEdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQACEdvbGRmaXNodAAIRkktRlctMDJ1cQB+AAIAAAACdAAHQnVsbGRvZ3QACEs5LUJELTAxdXEAfgACAAAAAnQABklndWFuYXQACFJQLUxJLTAydXEAfgACAAAAAnQABE1hbnh0AAlGTC1EU0gtMDE=]]></values>
+</variable-list>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ajout produit au panier" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" traceVariableNamesAsString=""
+    uid="524afed1-8a4a-4e5d-8522-8f2918900e76" weightsEnabled="false">
+    <weighted-embedded-action uid="da1a83d4-46d9-408e-b948-b6935a704b08"/>
+    <weighted-embedded-action uid="059eb6bf-5bdd-4d56-a509-1eb7c00f1044"/>
+    <weighted-embedded-action uid="0c849db3-d5cf-40aa-92bc-bd04d5df44de"/>
+</basic-logical-action-container>

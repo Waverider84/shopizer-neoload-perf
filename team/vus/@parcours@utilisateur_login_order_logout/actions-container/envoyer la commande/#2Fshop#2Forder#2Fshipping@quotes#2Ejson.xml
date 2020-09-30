@@ -1,0 +1,147 @@
+<http-page executeResourcesDynamically="false"
+    name="/shop/order/shippingQuotes.json"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_login_order_logout/%resources%/recorded-artifacts/32e4c5ba-3d21-4d46-84db-15767085efb8.zip"
+    slaProfileEnabled="false" thinkTime="16151"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="32e4c5ba-3d21-4d46-84db-15767085efb8">
+    <embedded-action>7fd97737-42db-4bbf-829e-df029bc20c22</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_90f657e9-251e-4fd3-a817-3c73f9e0501c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/shop/order/shippingQuotes.json"
+    path="/shop/order/shippingQuotes.json" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@parcours@utilisateur_login_order_logout/%resources%/recorded-artifacts/32e4c5ba-3d21-4d46-84db-15767085efb8.zip"
+    recordedResponseCode="200"
+    refererUid="557e422f-ca98-4712-a45e-70eeaa811df7"
+    responseSize="1001" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="7fd97737-42db-4bbf-829e-df029bc20c22" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlRGlzdGFuY2VXaW5kb3c9ZmFsc2UmY3VzdG9tZXIuYmlsbGluZy5maXJzdE5hbWU9amVhbiZjdXN0b21lci5iaWxsaW5nLmxhc3ROYW1lPXZhbGplYW4mY3VzdG9tZXIuYmlsbGluZy5jb21wYW55PSZjdXN0b21lci5iaWxsaW5nLmFkZHJlc3M9MytydWUrZHUrcGljK2RlK2NoYXJnZSZjdXN0b21lci5iaWxsaW5nLmNpdHk9bW9udHJlYWwmY3VzdG9tZXIuYmlsbGluZy5zdGF0ZVByb3ZpbmNlPW1vbnRyZWFsJmN1c3RvbWVyLmJpbGxpbmcucG9zdGFsQ29kZT03NTAxNSZjdXN0b21lci5lbWFpbEFkZHJlc3M9amVhbi52YWxqZWFuJTQweW9wbWFpbC5jb20mY3VzdG9tZXIuYmlsbGluZy5waG9uZT0wMTIzNDU2]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_84491c49-8ccb-40da-a66f-5e84a36b09d4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_84491c49-8ccb-40da-a66f-5e84a36b09d4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="useDistanceWindow" recordRawValue="false" separator="="
+        value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.firstName" recordRawValue="jean"
+        separator="=" value="jean" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.lastName" recordRawValue="valjean"
+        separator="=" value="valjean" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.company" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.address"
+        recordRawValue="3+rue+du+pic+de+charge" separator="="
+        value="3 rue du pic de charge" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.city" recordRawValue="montreal"
+        separator="=" value="montreal" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.stateProvince" recordRawValue="montreal"
+        separator="=" value="montreal" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="557e422f-ca98-4712-a45e-70eeaa811df7"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']customer\.billing\.stateProvince[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']customer\.billing\.stateProvince[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="831e318b-6aea-495c-89fc-75dfa77182b9" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.postalCode" recordRawValue="75015"
+        separator="=" value="75015" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="170e6949-60df-48d5-b7d2-aa5b321a5451"
+            regExp="&quot;billing&quot;:\{&quot;postalCode&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;billing&quot;:\{&quot;postalCode&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="f0285ec1-c73e-4f92-a167-b0998dbc6207" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.emailAddress"
+        recordRawValue="jean.valjean%40yopmail.com" separator="="
+        value="jean.valjean@yopmail.com" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="170e6949-60df-48d5-b7d2-aa5b321a5451"
+            regExp="&quot;emailAddress&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;emailAddress&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="5e744875-2730-4140-adfd-296e808a0b77" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.phone" recordRawValue="0123456"
+        separator="=" value="0123456" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="170e6949-60df-48d5-b7d2-aa5b321a5451"
+            regExp="&quot;phone&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;phone&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="1552cd3a-078d-4cb5-9027-66fd7dc2a51e" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=30ED13369C6DCE5471880A7A5DC6058C; __utma=81480926.235488676.1601307212.1601370670.1601375823.4; __utmt=1; user=DEFAULT_jean.valjean@yopmail.com; cart=DEFAULT_3d802026f78a4116b254a5f909fbce7c; __utmb=81480926.11.10.1601375823"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Origin" value="http://85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/commitOrder.html"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: http://85.171.20.78:66&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Language: en-US&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Tue, 29 Sep 2020 10:42:08 GMT</responseHeaders>
+    <record-html-infos extractorId="checkoutForm" extractorOccurence="2"
+        extractorRegExp="false" htmlType="2"/>
+</http-action>

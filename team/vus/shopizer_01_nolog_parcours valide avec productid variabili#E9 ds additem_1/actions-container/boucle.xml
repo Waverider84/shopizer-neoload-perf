@@ -1,0 +1,3 @@
+<loop-action loop="3" name="boucle" uid="70a4457f-4a59-40cc-89bd-574c9e115cbd">
+    <embedded-action>59bad954-dda1-4627-b332-1b34af1ea970</embedded-action>
+</loop-action>

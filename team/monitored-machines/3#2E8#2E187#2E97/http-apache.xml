@@ -1,0 +1,3 @@
+<connection-apache interval="5000" name="http-apache"
+    server-name="3.8.187.97" server-port="0"
+    uid="735f67eb-7a44-4d7f-8c10-5e381f002a64" url="/server-status?auto"/>

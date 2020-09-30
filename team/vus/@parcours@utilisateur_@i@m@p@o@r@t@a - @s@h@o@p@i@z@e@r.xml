@@ -1,0 +1,42 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="ParcoursUtilisateur_IMPORTA - SHOPIZER">
+    <description>authentification
+recherche d'un produit table: échec
+selection par catégorie puis choix d'un produit dans la page: ajouter au panier
+affichage du panier en cliquant sur "paiement" dans le menu dépliant en cliquant sur panier
+modification de la quantité: de 1 à 3 puis recalcul du panier
+click sur paiement
+remplir infis facturation
+envoyer la commande
+page de confirmation de commande
+deconnection</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="225b8e42-e080-442a-85e9-19f3641da705"/>
+        <weighted-embedded-action uid="51e139d9-1175-4b92-a8e8-ec31dfe5a44c"/>
+        <weighted-embedded-action uid="fadbda01-be2e-4745-a3cc-236f05eb6ba9"/>
+        <weighted-embedded-action uid="f471a8ff-4cae-4431-8da6-fa0904e5a5f5"/>
+        <weighted-embedded-action uid="85bb09a8-09fb-4d77-965a-21352f057b9c"/>
+        <weighted-embedded-action uid="5e186077-fec1-43ae-94ec-3607621d16c5"/>
+        <weighted-embedded-action uid="8ff5e9ca-eb7c-49ba-9fa1-3f8f57dc057c"/>
+        <weighted-embedded-action uid="30c8ba07-aa23-4042-88ec-3657088be685"/>
+        <weighted-embedded-action uid="c382a378-c1df-496f-a671-1e537e8483e9"/>
+        <weighted-embedded-action uid="e786820c-2cc3-47aa-b1dd-56f42ac58760"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>
