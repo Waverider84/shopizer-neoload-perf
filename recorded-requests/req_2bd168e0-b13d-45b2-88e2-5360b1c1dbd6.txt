@@ -1,0 +1,11 @@
+GET http://85.171.20.78:66/shop/reference/zoneName?zoneCode=QC HTTP/1.1
+Host: 85.171.20.78:66
+Proxy-Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://85.171.20.78:66/shop/cart/shoppingCart.html
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=93C9E54D7C46A749AAEC205C0E1EC487; __utma=81480926.235488676.1601307212.1601385126.1601390717.6; __utmt=1; user=DEFAULT_robert.lamontagne@yopmail.com; __utmb=81480926.4.10.1601390717; cart=DEFAULT_520c92769efd4f1fabab0ec8cb13bc53
+

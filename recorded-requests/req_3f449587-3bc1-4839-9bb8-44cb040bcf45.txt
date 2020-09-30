@@ -1,0 +1,132 @@
+POST http://85.171.20.78:66/shop/order/commitOrder.html HTTP/1.1
+Host: 85.171.20.78:66
+Proxy-Connection: keep-alive
+Content-Length: 3399
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://85.171.20.78:66
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRd85sSt0BTIafcpG
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://85.171.20.78:66/shop/order/commitOrder.html
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=30ED13369C6DCE5471880A7A5DC6058C; __utma=81480926.235488676.1601307212.1601370670.1601375823.4; __utmt=1; user=DEFAULT_jean.valjean@yopmail.com; cart=DEFAULT_3d802026f78a4116b254a5f909fbce7c; __utmb=81480926.14.10.1601375823
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="useDistanceWindow"
+
+false
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.firstName"
+
+jean
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.lastName"
+
+valjean
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.company"
+
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.address"
+
+3 rue du pic de charge
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.city"
+
+Paris
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.country"
+
+CA
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.zone"
+
+QC
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.stateProvince"
+
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.postalCode"
+
+750 15
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.emailAddress"
+
+jean.valjean@yopmail.com
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.billing.phone"
+
+0123456
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="_shipToDeliveryAddress"
+
+on
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.firstName"
+
+jean
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.lastName"
+
+valjean
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.company"
+
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.address"
+
+3 rue du pic de charge
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.city"
+
+Paris
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.country"
+
+CA
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.zone"
+
+QC
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.stateProvince"
+
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customer.delivery.postalCode"
+
+750 15
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="comments"
+
+
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="shippingModule"
+
+storePickUp
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="selectedShippingOption.optionId"
+
+storePickUp_QC
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="paymentMethodType"
+
+MONEYORDER
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="paymentModule"
+
+moneyorder
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="customerAgreed"
+
+true
+------WebKitFormBoundaryRd85sSt0BTIafcpG
+Content-Disposition: form-data; name="_customerAgreed"
+
+on
+------WebKitFormBoundaryRd85sSt0BTIafcpG--

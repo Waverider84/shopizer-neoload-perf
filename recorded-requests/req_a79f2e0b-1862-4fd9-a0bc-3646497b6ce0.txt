@@ -1,0 +1,10 @@
+GET http://85.171.20.78:66/static/products/DEFAULT/UC100/SMALL/bag.jpg HTTP/1.1
+Host: 85.171.20.78:66
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://85.171.20.78:66/shop
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; __utma=81480926.235488676.1601307212.1601447009.1601450796.9; JSESSIONID=F255EC50E5BAB29CA85DA3BB009EF519; __utmt=1; __utmb=81480926.19.10.1601450796
+

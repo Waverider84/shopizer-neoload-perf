@@ -1,0 +1,132 @@
+POST http://85.171.20.78:66/shop/order/commitOrder.html HTTP/1.1
+Host: 85.171.20.78:66
+Proxy-Connection: keep-alive
+Content-Length: 3373
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://85.171.20.78:66
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywfAeA9nFbc3mx0wg
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://85.171.20.78:66/shop/order/checkout.html
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; JSESSIONID=08C01DEA8111BD72A422D2F1966715E4; __utma=81480926.235488676.1601307212.1601375823.1601385126.5; __utmt=1; user=DEFAULT_robert.lamontagne@yopmail.com; cart=DEFAULT_ffb2880edbfc4f4896646571567f34b0; __utmb=81480926.8.10.1601385126
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="useDistanceWindow"
+
+false
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.firstName"
+
+robert
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.lastName"
+
+lamontagne
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.company"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.address"
+
+3 rue de la vieille charge
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.city"
+
+Montreal
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.country"
+
+CA
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.zone"
+
+QC
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.stateProvince"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.postalCode"
+
+921 00
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.emailAddress"
+
+robert.lamontagne@yopmail.com
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.billing.phone"
+
+12345678
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="_shipToDeliveryAddress"
+
+on
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.firstName"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.lastName"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.company"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.address"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.city"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.country"
+
+BY
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.zone"
+
+QC
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.stateProvince"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customer.delivery.postalCode"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="comments"
+
+
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="shippingModule"
+
+storePickUp
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="selectedShippingOption.optionId"
+
+storePickUp_QC
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="paymentMethodType"
+
+MONEYORDER
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="paymentModule"
+
+moneyorder
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="customerAgreed"
+
+true
+------WebKitFormBoundarywfAeA9nFbc3mx0wg
+Content-Disposition: form-data; name="_customerAgreed"
+
+on
+------WebKitFormBoundarywfAeA9nFbc3mx0wg--

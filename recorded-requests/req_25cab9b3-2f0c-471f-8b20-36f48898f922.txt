@@ -1,0 +1,15 @@
+POST http://85.171.20.78:66/shop/order/shippingQuotes.json HTTP/1.1
+Host: 85.171.20.78:66
+Proxy-Connection: keep-alive
+Content-Length: 731
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://85.171.20.78:66
+Referer: http://85.171.20.78:66/shop/order/checkout.html
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; __utma=81480926.235488676.1601307212.1601447009.1601450796.9; JSESSIONID=F255EC50E5BAB29CA85DA3BB009EF519; cart=DEFAULT_ffd9de51cd4e4b4fb1436b7cac47f691; __utmt=1; __utmb=81480926.21.10.1601450796
+
+useDistanceWindow=false&customer.billing.firstName=Robert&customer.billing.lastName=Lamontagne&customer.billing.company=&customer.billing.address=3+rue+de+la+vieille+charge&customer.billing.city=Paris&customer.billing.country=CA&customer.billing.zone=QC&customer.billing.stateProvince=QC&customer.billing.postalCode=&customer.emailAddress=&customer.billing.phone=&_shipToDeliveryAddress=on&customer.delivery.firstName=&customer.delivery.lastName=&customer.delivery.company=&customer.delivery.address=&customer.delivery.city=&customer.delivery.country=CA&customer.delivery.zone=QC&customer.delivery.stateProvince=&customer.delivery.postalCode=&comments=&shippingModule=&paymentMethodType=&paymentModule=moneyorder&_customerAgreed=on
