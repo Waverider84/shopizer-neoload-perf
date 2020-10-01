@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="accéder au site" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    traceVariableNamesAsString=""
+    uid="7c8b6322-9059-42cd-b148-49ecbb5b78ea" weightsEnabled="false">
+    <weighted-embedded-action uid="973ee1d9-57e7-48ff-91f4-93c259a7ef58"/>
+</basic-logical-action-container>

@@ -1,0 +1,213 @@
+<http-page executeResourcesDynamically="false"
+    name="/shop/order/shippingQuotes.json_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/shopizer_01_buyer_1_fixed_product/%resources%/recorded-artifacts/85cf8589-9a4f-47de-822c-1d32ccb62375.zip"
+    slaProfileEnabled="false" thinkTime="2016"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="85cf8589-9a4f-47de-822c-1d32ccb62375">
+    <embedded-action>88585563-af8c-45cd-9629-4241f1079277</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_db0efef8-0880-40d1-8d47-f2529e3693fc.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/shop/order/shippingQuotes.json"
+    path="/shop/order/shippingQuotes.json" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/shopizer_01_buyer_1_fixed_product/%resources%/recorded-artifacts/85cf8589-9a4f-47de-822c-1d32ccb62375.zip"
+    recordedResponseCode="200"
+    refererUid="ae3382a3-75d1-4f38-8a37-16604c11124e"
+    responseSize="3607" serverUid="85.171.20.78"
+    slaProfileEnabled="false" uid="88585563-af8c-45cd-9629-4241f1079277" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlRGlzdGFuY2VXaW5kb3c9ZmFsc2UmY3VzdG9tZXIuYmlsbGluZy5maXJzdE5hbWU9Um9iZXJ0JmN1c3RvbWVyLmJpbGxpbmcubGFzdE5hbWU9TGFtb250YWduZSZjdXN0b21lci5iaWxsaW5nLmNvbXBhbnk9JmN1c3RvbWVyLmJpbGxpbmcuYWRkcmVzcz0zK3J1ZStkZStsYSt2aWVpbGxlK2NoYXJnZSZjdXN0b21lci5iaWxsaW5nLmNpdHk9UGFyaXMmY3VzdG9tZXIuYmlsbGluZy5jb3VudHJ5PUNBJmN1c3RvbWVyLmJpbGxpbmcuem9uZT1RQyZjdXN0b21lci5iaWxsaW5nLnN0YXRlUHJvdmluY2U9UUMmY3VzdG9tZXIuYmlsbGluZy5wb3N0YWxDb2RlPV9fXytfX18mY3VzdG9tZXIuZW1haWxBZGRyZXNzPSZjdXN0b21lci5iaWxsaW5nLnBob25lPSZfc2hpcFRvRGVsaXZlcnlBZGRyZXNzPW9uJmN1c3RvbWVyLmRlbGl2ZXJ5LmZpcnN0TmFtZT0mY3VzdG9tZXIuZGVsaXZlcnkubGFzdE5hbWU9JmN1c3RvbWVyLmRlbGl2ZXJ5LmNvbXBhbnk9JmN1c3RvbWVyLmRlbGl2ZXJ5LmFkZHJlc3M9JmN1c3RvbWVyLmRlbGl2ZXJ5LmNpdHk9JmN1c3RvbWVyLmRlbGl2ZXJ5LmNvdW50cnk9Q0EmY3VzdG9tZXIuZGVsaXZlcnkuem9uZT1RQyZjdXN0b21lci5kZWxpdmVyeS5zdGF0ZVByb3ZpbmNlPSZjdXN0b21lci5kZWxpdmVyeS5wb3N0YWxDb2RlPSZjb21tZW50cz0mc2hpcHBpbmdNb2R1bGU9JnNlbGVjdGVkU2hpcHBpbmdPcHRpb24ub3B0aW9uSWQ9Q1VTVE9NX1dFSUdIVF9jYW5hZGEmcGF5bWVudE1ldGhvZFR5cGU9JnBheW1lbnRNb2R1bGU9bW9uZXlvcmRlciZfY3VzdG9tZXJBZ3JlZWQ9b24=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_c16fa038-22bf-4ec7-bb5d-c21cc71721ed</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c16fa038-22bf-4ec7-bb5d-c21cc71721ed.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="useDistanceWindow" recordRawValue="false" separator="="
+        value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.firstName" recordRawValue="Robert"
+        separator="=" value="Robert" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.lastName" recordRawValue="Lamontagne"
+        separator="=" value="Lamontagne" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.company" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.address"
+        recordRawValue="3+rue+de+la+vieille+charge" separator="="
+        value="3 rue de la vieille charge" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.city" recordRawValue="Paris"
+        separator="=" value="Paris" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.country" recordRawValue="CA"
+        separator="=" value="CA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.zone" recordRawValue="QC" separator="="
+        value="QC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.stateProvince" recordRawValue="QC"
+        separator="=" value="QC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.postalCode" recordRawValue="___+___"
+        separator="=" value="___ ___" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="e2ce0593-bc31-4417-a164-8d34a0465bc1"
+            regExp="&quot;billing&quot;:\{&quot;postalCode&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;billing&quot;:\{&quot;postalCode&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="4b4ca318-464a-43e7-8feb-932e8b89316a" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.emailAddress" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.billing.phone" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="_shipToDeliveryAddress" recordRawValue="on" separator="="
+        value="on" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ae3382a3-75d1-4f38-8a37-16604c11124e"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']_shipToDeliveryAddress[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']_shipToDeliveryAddress[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="18c18df3-6c14-4e88-bc76-0db477096b8f" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.firstName" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.lastName" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.company" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.address" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.city" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.country" recordRawValue="CA"
+        separator="=" value="CA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.zone" recordRawValue="QC" separator="="
+        value="QC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.stateProvince" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customer.delivery.postalCode" recordRawValue=""
+        separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="comments"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="shippingModule" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="selectedShippingOption.optionId"
+        recordRawValue="CUSTOM_WEIGHT_canada" separator="="
+        value="CUSTOM_WEIGHT_canada" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="e2ce0593-bc31-4417-a164-8d34a0465bc1"
+            regExp="&quot;optionId&quot;:&quot;([^&amp;]*?)&quot;"
+            regExpAdv="&quot;optionId&quot;:&quot;([^&amp;]*?)&quot;"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="d1ccfec3-4adc-475a-bbde-116b98bd0ec2" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="paymentMethodType" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="paymentModule"
+        recordRawValue="moneyorder" separator="=" value="moneyorder" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ae3382a3-75d1-4f38-8a37-16604c11124e"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']paymentModule[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']paymentModule[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="00a84842-0ccf-493e-8d6a-cef0d68c8b36" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true"
+        name="_customerAgreed" recordRawValue="on" separator="="
+        value="on" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="ae3382a3-75d1-4f38-8a37-16604c11124e"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']_customerAgreed[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']_customerAgreed[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="7f674878-87d9-4fc4-8f60-9b442339c312" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="__utmz=81480926.1601307212.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); usernamecookie=admin%40shopizer.com; __utmc=81480926; __utma=81480926.235488676.1601307212.1601447009.1601450796.9; JSESSIONID=F255EC50E5BAB29CA85DA3BB009EF519; cart=DEFAULT_${shoppingCartCode}; __utmt=1; __utmb=81480926.21.10.1601450796"/>
+    <header name="Host" value="85.171.20.78:66"/>
+    <header name="Origin" value="http://85.171.20.78:66"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://85.171.20.78:66/shop/order/checkout.html"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH&#xd;
+Access-Control-Allow-Origin: http://85.171.20.78:66&#xd;
+Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+X-Frame-Options: DENY&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Language: en-US&#xd;
+Transfer-Encoding: chunked&#xd;
+Date: Wed, 30 Sep 2020 08:16:08 GMT</responseHeaders>
+    <record-html-infos extractorId="checkoutForm" extractorOccurence="2"
+        extractorRegExp="false" htmlType="2"/>
+</http-action>

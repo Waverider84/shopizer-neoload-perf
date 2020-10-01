@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_01_buyer_1_fixed_product">
+    <description>pas de log
+le buyer ajoute au panier le productId 150 puis execute les étapes jusqu'à l'envoi de la commande</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="7c8b6322-9059-42cd-b148-49ecbb5b78ea"/>
+        <weighted-embedded-action uid="0ed47031-b697-4dc6-b912-8de2fcf8c8f0"/>
+        <weighted-embedded-action uid="a8d11906-bb84-4f62-92f5-495c297a7cf4"/>
+        <weighted-embedded-action uid="eff63e07-30dc-44c2-9df2-679fa8ea4d34"/>
+        <weighted-embedded-action uid="8cb71ffc-900a-434a-9a2f-af472fecc465"/>
+        <weighted-embedded-action uid="4ebb0b6f-cec4-4966-8296-948256a8bac6"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

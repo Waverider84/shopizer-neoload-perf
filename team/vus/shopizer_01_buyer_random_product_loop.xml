@@ -1,0 +1,31 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false" uid="shopizer_01_buyer_random_product_loop">
+    <description>pas d'authentification
+ce parcours boucle sur l'ajout d'un produit au panier // variabilisation du productId (8 produits)
+nombre itération de boucle: ${liste_productids_matchNr}</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés lorsque l'Utilisateur Virtuel démarre.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments répétés jusqu'à que l'Utilisateur Virtuel s'arrête.</description>
+        <weighted-embedded-action uid="cd5d4095-02de-42d2-98d7-b8ce4846545b"/>
+        <weighted-embedded-action uid="64042564-0eb8-4f76-8947-633ad9c43ebf"/>
+        <weighted-embedded-action uid="4b2cd2aa-a1ae-4acd-97c3-8f1aa00cf83b"/>
+        <weighted-embedded-action uid="5fe6c2b5-b3d3-43e2-bea8-40a2bf09e6a8"/>
+        <weighted-embedded-action uid="ee8af8e5-7201-41f6-a184-e89fc81e7f29"/>
+        <weighted-embedded-action uid="17007804-5627-4068-a0c5-472521b146d3"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" traceVariableNamesAsString="" weightsEnabled="false">
+        <description>Eléments exécutés avant que l'Utilisateur Virtuel s'arrête.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

@@ -1,5 +1,5 @@
 <population uid="Shopizer_shoppers">
-    <split cache="1" factor="50.0" virtualUserUid="shopizer_01_nolog_copie_3">
+    <split cache="1" factor="10.0" virtualUserUid="shopizer_01_buyer_1_fixed_product">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true"
             icon-name="firefox" name="Firefox 70.0" userAgent="Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/70.0"/>
@@ -14,7 +14,7 @@
             poorUploadPacketLoss="0%" signalStrength="GOOD"
             uploadBandwidth="8Mbps" uploadLatency="20ms" uploadPacketLoss="0%"/>
     </split>
-    <split cache="1" factor="25.0" virtualUserUid="shopizer_01_nolog_copie_4">
+    <split cache="1" factor="60.0" virtualUserUid="shopizer_01_buyer_random_product_loop">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true"
             icon-name="chrome" name="Chrome 78.0" userAgent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"/>
@@ -29,7 +29,7 @@
             poorUploadPacketLoss="1%" signalStrength="GOOD"
             uploadBandwidth="8Mbps" uploadLatency="0ms" uploadPacketLoss="0%"/>
     </split>
-    <split cache="1" factor="25.0" virtualUserUid="shopizer_01_nolog_copie_3">
+    <split cache="1" factor="30.0" virtualUserUid="shopizer_01_buyer_random_product_loop">
         <browser-profile acceptEncoding="GZIP,DEFLATE" connections="6"
             cookies="true" http2="false" icon-name="droid"
             name="Samsung Galaxy S7" userAgent="Mozilla/5.0 (Linux; Android 6.0; SAMSUNG SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36"/>

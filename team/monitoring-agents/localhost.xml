@@ -55,8 +55,8 @@
         <lg-address enabled="false" hostname="form303.mshome.net">
             <ip value="192.168.142.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:f49d:d509:fed6:814%eth17">
-            <ip value="fe80:0:0:0:f49d:d509:fed6:814%eth17"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:bc28:5063:af9f:889b%eth17">
+            <ip value="fe80:0:0:0:bc28:5063:af9f:889b%eth17"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
